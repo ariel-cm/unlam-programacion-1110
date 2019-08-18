@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+# CodeBlocks
+*.layout
+*.depend
+
+# generated directories
+bin/
+obj/
