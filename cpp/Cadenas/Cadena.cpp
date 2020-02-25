@@ -1,5 +1,4 @@
 #include "Cadena.hpp"
-#include <new>
 
 Cadena::Cadena(const char* str) 
 {
