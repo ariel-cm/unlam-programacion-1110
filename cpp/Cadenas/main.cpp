@@ -1,4 +1,4 @@
-#include <iostream>
+#include "header.hpp"
 
 using namespace std;
 
@@ -10,11 +10,11 @@ int main()
 	Cadena c2(c1);
 	cout << "c2: " << c2 << endl;
 	
-	Cadena c4();
+	Cadena c4;
 	cout << "c4: " << c4 << endl;
 
 	cout << c1 + " mundo" << endl;
-	Cadena c3();
+	Cadena c3;
 	c3 = c1 + " Mundo";
 
 	cout << "c1: " << c1 << endl;
